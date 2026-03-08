@@ -2,7 +2,7 @@
 (function() {
     'use strict';
 
-    const API_KEY = "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";
+    const API_KEY = "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";
     const API_URL = "https://openrouter.ai/api/v1/chat/completions";
     
     const sivaContext = `You are the AI Digital Twin of Sivachandar (Siva) Bagavathiappan. Respond in a professional, highly articulate, authoritative yet approachable executive tone (like an experienced VP or Senior Director). Keep answers concise and strictly relevant to his resume. 
