@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sivachandar — New Look</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1020;
+      --text: #eaf1ff;
+      --glass: rgba(255,255,255,.18);
+      --accent: #7c3aed;
+    }
+    html, body { margin: 0; padding: 0; height: 100%; font-family: Inter, system-ui, sans-serif; color: #111; background: #0b1020; }
+    header.hero { height: 72vh; min-height: 420px; display:grid; place-items:center; background: linear-gradient(135deg, #1f3a93 0%, #4b2e92 60%, #1a1a9b 100%); color:#fff; position:relative; overflow:hidden; }
+    header.hero .overlay{ position:absolute; inset:0; background: radial-gradient(circle at 20% 20%, rgba(255,255,255,.25), rgba(255,255,255,0) 40%), radial-gradient(circle at 70% 60%, rgba(255,255,255,.15), rgba(255,255,255,0) 40%); mix-blend-mode:overlay; }
+    .container{ max-width:1100px; margin:0 auto; padding: 0 1rem; }
+    .brand{ font-family:Poppins, sans-serif; font-weight:800; font-size: clamp(2rem, 4vw + 1rem, 3.6rem); text-align:center; margin: 0; }
+    .tag{ text-align:center; opacity:.95; font-weight:500; }
+    .glass{ background: rgba(255,255,255,.22); border-radius:14px; padding:1rem 1.25rem; border:1px solid rgba(255,255,255,.4); }
+    nav{ position:fixed; top:0; left:0; right:0; padding:.5rem 1rem; display:flex; justify-content:space-between; align-items:center; background: rgba(0,0,0,.3); color:white; z-index: 50; }
+    main{ padding: 2rem; }
+    section{ padding: 2rem 0; }
+  </style>
+</head>
+<body>
+  <nav aria-label="Main Navigation">
+    <div class="container" style="display:flex; gap:.75rem; align-items:center;">
+      <a href="index2.html" class="brand" style="font-family:Poppins, sans-serif; font-size:2rem;">SB.</a>
+      <div style="flex:1"></div>
+      <a href="#about">About</a>
+      <a href="#experience" style="margin-left:.5rem;">Experience</a>
+      <a href="#ai" style="margin-left:.5rem;">AI</a>
+      <a href="#contact" style="margin-left:.5rem;">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="home" role="banner" aria-label="Intro">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="glass" aria-label="Intro panel" style="max-width:700px; text-align:left;">
+        <h1 class="brand" style="color:#fff;">Sivachandar</h1>
+        <p class="tag" style="color:#f8faff; margin-top:.25rem;">New look. Bold UX. Focused on compact, viewport-friendly design.</p>
+        <a href="#contact" style="display:inline-block; margin-top:.75rem; padding:.6rem 1rem; color:#111; background:#fff; border-radius:6px; text-decoration:none; font-weight:700;">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" role="main">
+    <section id="about">
+      <h2>About</h2>
+      <p>A fresh, compact UX approach for executive portfolios.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Leadership in product and technology with modern architectures.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>Strategic tech leadership, cloud, data, and delivery excellence.</p>
+    </section>
+    <section id="ai">
+      <h2>AI</h2>
+      <p>Prototype-ready client-side OpenRouter integration.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>agnostic@example.com</p>
+    </section>
+  </main>
+
+  <footer style="text-align:center; padding:2rem; background:#111; color:#fff;">© 2026 Sivachandar</footer>
+</body>
+</html>
