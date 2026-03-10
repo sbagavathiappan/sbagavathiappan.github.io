@@ -35,6 +35,8 @@
       <a href="#contact" style="margin-left:.5rem;">Contact</a>
     </div>
   </nav>
+  <!-- Skip to content for accessibility -->
+  <a href="#content" class="skip-link" style="position:fixed;top:0;left:0; background:#111; color:#fff; padding:.5rem .75rem; z-index:1000; border-radius:4px; display:inline-block;">Skip to content</a>
 
   <header class="hero" id="home" role="banner" aria-label="Intro">
     <div class="overlay"></div>
@@ -47,7 +49,28 @@
     </div>
   </header>
 
-  <main id="content" role="main">
+<main id="content" role="main">
+  <!-- Highlights (compact, visual-first) -->
+  <section id="highlights" style="padding:48px 0; background: linear-gradient(135deg,#0f122a 0%, #1a1a3a 60%, #231a3a 100%); color:#fff;">
+    <div class="container" style="display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;">
+      <h2 style="font-family:Poppins, sans-serif; font-weight:800; font-size:2rem; margin:0;">Highlights</h2>
+      <p style="opacity:.9;">Concise snapshot of outcomes and capability</p>
+      <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:16px; width:100%; max-width: 980px; margin-top:8px;">
+        <div class="glass" style="background: rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.32); padding:14px; border-radius:12px;">
+          <div style="font-weight:700;">43% Online Growth</div>
+          <div style="opacity:.9; font-size:.95rem;">Scaled FreshDirect's e-commerce/logistics platform</div>
+        </div>
+        <div class="glass" style="background: rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.32); padding:14px; border-radius:12px;">
+          <div style="font-weight:700;">Multi-Cloud Transformation</div>
+          <div style="opacity:.9; font-size:.95rem;">Enterprise architecture for AWS/GCP/Azure</div>
+        </div>
+        <div class="glass" style="background: rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.32); padding:14px; border-radius:12px;">
+          <div style="font-weight:700;">Webby Award Recognitions</div>
+          <div style="opacity:.9; font-size:.95rem;">Best UX in Shopping experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
     <section id="about">
       <h2>About</h2>
       <p>A fresh, compact UX approach for executive portfolios.</p>
